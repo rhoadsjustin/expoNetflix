@@ -103,9 +103,9 @@ class HomeScreen extends Component {
 
     }
 
-    setActiveUserNavigation(selected) {
+    setActiveUserNavigation(selection) {
         this.setState({
-            selected,
+            selected: selection
         })
     }
 

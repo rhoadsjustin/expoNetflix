@@ -5,7 +5,7 @@ import ShowDetails from 'components/screens/show-details-screen'
 
 const HomeStackNavigator = StackNavigator({
     Main: { screen: HomeScreen },
-    ShowDetailsScreen: { screen: ShowDetails }
+    ShowDetails: { screen: ShowDetails }
 },
 {
     initialRouteName: 'Main',
