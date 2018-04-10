@@ -114,7 +114,7 @@ class HomeScreen extends Component {
         const { selected } = this.state;
 
         return userNavigation.map((element, index) => {
-            if (selectted === element.id) {
+            if (selected === element.id) {
                 return (
                     <TouchableWithoutFeedback
                         onPress={() => this.setActiveUserNavigation(element.id)}
@@ -138,7 +138,7 @@ class HomeScreen extends Component {
         })
     }
 
-    render()N{
+    render(){
         return (
             <Container>
                 <Header openDrawer={() => this.props.navigation.navigate('DrawerOpen')} />

@@ -1,8 +1,8 @@
-const DARE_DEVIL = require('../../assets/images/dare-devil.jpeg');
-const HOUSE_OF_CARDS = require('../../assets/images/house-of-cards.jpeg');
-const LUKE_CAGE = require('../../assets/images/luke-cage.jpeg');
-const ORANGE_IS_THE_NEW_BLACK = require('../../assets/images/orange-is-the-new-black.jpeg');
-const STRANGER_THINGS = require('../../assets/images/stranger-things.jpeg');
+const DARE_DEVIL = require('../../assets/dare-devil.jpeg');
+const HOUSE_OF_CARDS = require('../../assets/house-of-cards.jpeg');
+const LUKE_CAGE = require('../../assets/luke-cage.jpeg');
+const ORANGE_IS_THE_NEW_BLACK = require('../../assets/orange-is-the-new-black.jpeg');
+const STRANGER_THINGS = require('../../assets/stranger-things.jpeg');
 
 const SHOWS = [
     {
